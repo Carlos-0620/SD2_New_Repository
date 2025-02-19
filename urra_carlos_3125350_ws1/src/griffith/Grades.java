@@ -2,7 +2,7 @@ package griffith;
 
 public class Grades {
 
-	int gradesMax(int[] grades) {
+	static int gradesMax(int[] grades) {
 		return 0;
 		
 	}
