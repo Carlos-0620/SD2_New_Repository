@@ -19,8 +19,8 @@ public class Word {
     public int length() {
         return letters.length;
     }
-    public char[] getLetters() {
-        // Stub method
-        return null;
+
+     public char[] getLetters() {
+        return letters;
     }
 }
