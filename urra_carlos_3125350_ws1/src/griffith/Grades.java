@@ -25,12 +25,20 @@ public class Grades {
 	}
 	 
 	static double gradesAverage(int[] grades) {
-		return 0.0;
+		if (grades.length == 0) throw new IllegalArgumentException("Grade array cannot be empty.");
+        return (double) gradesTotal(grades) / grades.length;
 		 
 	}
 	 
 	static int countFails(int[] grades, int minGrade) {
-		return 0;
+		if (grades.length == 0) throw new IllegalArgumentException("Grade array cannot be empty.");
+        int count = 0;
+        for (int grade : grades) {
+            if (grade < minGrade) {
+                count++;
+            }
+        }
+        return count;
 		 
 	}
 }
