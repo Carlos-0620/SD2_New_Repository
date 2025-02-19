@@ -52,7 +52,7 @@ class GradesTest {
         int[] grades2 = {55, 60, 80, 75}; // No fails
         int[] grades3 = {10, 20, 30, 39, 29}; // All fails
 
-        assertEquals(3, Grades.countFails(grades1, 40), "Fail count should be 2");
+        assertEquals(2, Grades.countFails(grades1, 40), "Fail count should be 2");
         assertEquals(0, Grades.countFails(grades2, 40), "Fail count should be 0");
         assertEquals(5, Grades.countFails(grades3, 40), "Fail count should be 5");
     }
