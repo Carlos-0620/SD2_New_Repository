@@ -13,12 +13,12 @@ public class Grades {
 	 }
 	 
 	 static double gradesAverage(int[] grades) {
-		return 0;
+		return 0.0;
 		 
 	 }
 	 
 	 static int countFails(int[] grades, int minGrade) {
-		return minGrade;
+		return 0;
 		 
 	 }
 }
